@@ -361,6 +361,7 @@ phsource/phonemes.stamp: \
 	phsource/ph_hakka \
 	phsource/ph_hindi \
 	phsource/ph_hindi_base \
+	phsource/ph_hokkien \
 	phsource/ph_hungarian \
 	phsource/ph_icelandic \
 	phsource/ph_indonesian \
@@ -552,6 +553,7 @@ dictionaries: \
 	espeak-ng-data/ms_dict \
 	espeak-ng-data/mt_dict \
 	espeak-ng-data/my_dict \
+	espeak-ng-data/nan_dict \
 	espeak-ng-data/nci_dict \
 	espeak-ng-data/ne_dict \
 	espeak-ng-data/nl_dict \
@@ -791,6 +793,9 @@ espeak-ng-data/mt_dict: dictsource/mt_list dictsource/mt_rules dictsource/mt_ext
 
 my: espeak-ng-data/my_dict
 espeak-ng-data/my_dict: dictsource/my_list dictsource/my_rules dictsource/my_extra dictsource/my_emoji
+
+nan: espeak-ng-data/nan_dict
+espeak-ng-data/nci_dict: dictsource/nan_list dictsource/nan_rules
 
 nci: espeak-ng-data/nci_dict
 espeak-ng-data/nci_dict: dictsource/nci_list dictsource/nci_rules dictsource/nci_extra
